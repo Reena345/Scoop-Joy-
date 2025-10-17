@@ -805,3 +805,137 @@ span {
     font-size: 1.3rem;
   }
 }
+
+
+
+
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.auth-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #fffdf8; 
+  padding: 1rem;
+}
+
+.auth-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 900px;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+/* Left Image */
+.auth-image {
+  flex: 1 1 50%;
+  background-color: #f9f3e5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Right Form */
+.auth-form {
+  flex: 1 1 50%;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.auth-form h2 {
+  color: #ffd700; 
+  margin-bottom: 0.5rem;
+}
+
+.auth-form p {
+  color: #6b6b6b;
+  margin-bottom: 1.5rem;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+}
+
+.input-group label {
+  display: block;
+  font-weight: 500;
+  color: #ffd700;
+  margin-bottom: 0.4rem;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.input-group input:focus {
+  border-color: #a6794e;
+  box-shadow: 0 0 5px rgba(166, 121, 78, 0.4);
+}
+
+.btn-auth {
+  background-color: #ffd700; 
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  width: 100%;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-auth:hover {
+  background-color: rgb(159, 94, 30);
+}
+
+.switch-text {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #5a4634;
+}
+
+.switch-text a {
+  color: #ffd700;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .auth-wrapper {
+    flex-direction: column;
+  }
+
+  .auth-image {
+    display: none; 
+  }
+
+  .auth-form {
+    flex: 1;
+    padding: 2rem 1.5rem;
+  }
+}

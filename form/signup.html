@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up | Scoop Joy</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <section class="auth-page">
+    <div class="auth-wrapper">
+      <!-- Left Image -->
+      <div class="auth-image">
+        <img src="../images/ice-brown.png" alt="Ice Cream Delight">
+      </div>
+
+      <!-- Right Form -->
+      <div class="auth-form">
+        <h2>Create Account</h2>
+        <p>Join Scoop Joy and enjoy your favorite treats 🍧</p>
+
+        <form id="signupForm">
+          <div class="input-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+          </div>
+
+          <div class="input-group">
+            <label for="signupEmail">Email Address</label>
+            <input type="email" id="signupEmail" placeholder="Enter your email" required>
+          </div>
+
+          <div class="input-group">
+            <label for="signupPassword">Password</label>
+            <input type="password" id="signupPassword" placeholder="Create a password" required>
+          </div>
+
+          <button type="submit" class="btn-auth">Sign Up</button>
+
+          <p class="switch-text">
+            Already have an account?
+            <a href="login.html">Sign In</a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+ <script src="./javaPage/signup.js"></script>
+</body>
+</html>
