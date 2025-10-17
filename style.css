@@ -711,7 +711,7 @@ header.container {
 }
 
 .commitment h2 span {
-  color: #ff4081; 
+  color: #ffd700; 
   font-size: clamp(2rem, 5vw, 2.8rem);
 }
 
