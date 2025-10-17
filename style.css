@@ -718,7 +718,7 @@ header.container {
 .commitment p {
   max-width: 650px;
   margin: 0 auto;
-  color: #5f4b4b;
+  color: #5f4b4b ;
   font-size: clamp(0.95rem, 2vw, 1.1rem);
   line-height: 1.7;
   padding: 0 1rem;
